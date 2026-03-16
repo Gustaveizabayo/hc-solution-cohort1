@@ -1,4 +1,6 @@
-import React  from 'react';
+import React from 'react';
+import arrowIcon from '../../assets/images/Arrow.png';
+
 
 const Navbar = () => {
     const navLinks = [
@@ -9,7 +11,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="max-w-7xl mx-auto px-8 py-6 flex items-center justify-between relative z-40">
+        <nav className="max-w-8xl mx-auto px-8 py-6 flex items-center justify-between relative z-40">
             <div className="text-3xl font-bold text-[#1B2921] tracking-tight">Area</div>
             <div className="hidden md:flex items-center gap-10 text-base font-medium  absolute left-1/2 -translate-x-1/2 ">
             {navLinks.map((Link) => (
@@ -21,7 +23,7 @@ const Navbar = () => {
             <div className="hidden md:block">
                 <button className="bg-[#1B2921] text-white px-7 py-3 rounded-full items-center gap-2 hover:bg-green-900 transition font-medium">
                     Learn More
-                    <span className="text-xl leading-none">&rarr;</span>
+                      <img src={arrowIcon} alt="arrow" className=" invert" />
                 </button>
             </div>
 

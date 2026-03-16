@@ -49,25 +49,25 @@ const features = [
 ];
 
 const Benefits = () => (
-    <section className="max-w-7xl mx-auto px-6 md:px-8 pt-12 pb-20">
+    <section className="max-w-8xl mx-auto px-8 pt-12 pb-20">
         {/* Trusted By */}
-        <p className="text-[13px] font-medium text-gray-400 mb-8 text-left">Trusted by:</p>
-        <div className="w-full mb-16">
+        <p className="text-[20px] font-medium text-gray-400 mb-8 text-left">Trusted by:</p>
+        <div className="w-full mb-20">
             <img src={logoRowImg} alt="Trusted by logos" className="w-full h-auto object-contain opacity-70 grayscale mix-blend-multiply" />
         </div>
 
-        <hr className="w-full border-gray-200 mb-16" />
+        <hr className="w-full border-gray-200 mb-20" />
 
         <div id="benefits" className="w-full">
-            <h3 className="text-[11px] tracking-[0.15em] font-semibold text-[#8C9A77] uppercase mb-8">Benefits</h3>
+            <h3 className="text-[20px] tracking-[0.15em] font-semibold text-[#8C9A77] uppercase mb-8">Benefits</h3>
             <h2 className="serif text-5xl md:text-[64px] text-gray-900 leading-[1.05] mb-8">
                 We've cracked the code.
             </h2>
-            <p className="text-[#757575] text-[15px] leading-relaxed max-w-lg mb-16">
+            <p className="text-[#757575] text-[20px] leading-relaxed max-w-lg mb-20">
                 Area provides real insights, without the data overload.
             </p>
 
-            <hr className="w-full border-gray-200 mb-12" />
+            <hr className="w-full border-gray-200 mb-20" />
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 xl:gap-14">
                 {features.map((f, i) => (
@@ -78,13 +78,15 @@ const Benefits = () => (
                             </svg>
                         </div>
                         <h4 className="serif text-[20px] font-medium text-gray-900 mb-4 leading-tight">{f.title}</h4>
-                        <p className="text-[#757575] text-[14px] leading-[1.7]">{f.desc}</p>
+                        <p className="text-[#757575] text-[20px] leading-[1.7]">{f.desc}</p>
                     </div>
                 ))}
             </div>
         </div>
 
-        <img className="w-full h-auto object-contain rounded-[20px] mt-10 mb-10" src={heroImg} alt="Hero" />
+        <div className="w-full mt-20 mb-10 rounded-[20px] overflow-hidden shadow-2xl">
+            <img className="w-full h-auto object-contain" src={heroImg} alt="Hero" />
+        </div>
     </section>
 );
 

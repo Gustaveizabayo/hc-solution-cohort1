@@ -7,7 +7,7 @@ const steps = [
 ];
 
 const HowTo = () => (
-  <section id="howto" className="max-w-7xl mx-auto px-6 md:px-8 py-24">
+  <section id="howto" className="max-w-8xl mx-auto px-6 md:px-8 py-24">
     <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-20 border-b border-gray-200 pb-16">
       <h2 className="font-serif text-5xl md:text-[64px] text-gray-900">Map Your Success</h2>
       <button className="bg-[#e4ebce] text-[#1B2921] px-8 py-3 rounded-full font-bold text-[13px] hover:bg-[#d6dea4] transition">
