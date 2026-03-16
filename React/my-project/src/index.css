@@ -1,0 +1,25 @@
+@import "tailwindcss";
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8F7F3;
+  color: #1a1a1a;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.serif {
+  font-family: 'playfair Display', serif;
+}
+
+.olive-bg {
+  background-color: #8C9A77;
+
+}
+
+.dark-green-bg {
+  background-color: #1B2921;
+}
+
+.dark-green-text {
+  color: #1B2921;
+}
